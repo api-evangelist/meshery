@@ -1,0 +1,13 @@
+{
+  "repo": "meshery",
+  "feeds": [
+    {
+      "source": "https://meshery.io/blog",
+      "feed_url": "https://meshery.io/feed.xml",
+      "saved": 10,
+      "title": "Meshery"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:31:09Z"
+}
