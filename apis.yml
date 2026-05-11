@@ -39,6 +39,12 @@ common:
     url: https://layer5.io/company/legal/terms-of-service
   - type: PrivacyPolicy
     url: https://layer5.io/company/legal/privacy
+  - type: Integrations
+    url: https://meshery.io/integrations
+integrations:
+  - name: Meshery
+  - name: Link
+  - name: theme-logo
 maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
