@@ -21,6 +21,8 @@ modified: '2026-04-28'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/showcase/meshery
   - type: Website
     url: https://meshery.io/
   - type: Documentation
