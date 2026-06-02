@@ -2,12 +2,17 @@
   "repo": "meshery",
   "feeds": [
     {
-      "source": "https://meshery.io/blog",
+      "source": "https://meshery.io/feed",
       "feed_url": "https://meshery.io/feed",
-      "title": "Meshery",
-      "saved": 2
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://meshery.io/playground",
+      "error": "HTTPError"
     }
   ],
   "post_count": 12,
-  "fetched": "2026-05-17T20:20:35Z"
+  "fetched": "2026-06-01T23:35:02Z"
 }
