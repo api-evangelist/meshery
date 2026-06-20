@@ -7,7 +7,7 @@ description: >-
   native applications and infrastructure. Meshery exposes REST and GraphQL
   APIs for automating multi-cluster operations, design management, performance
   profiling, and integration with hundreds of CNCF and ecosystem projects.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/meshery/refs/heads/main/apis.yml
 tags:
   - Cloud Native
