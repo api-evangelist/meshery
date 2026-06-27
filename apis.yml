@@ -33,7 +33,7 @@ common:
     url: https://github.com/meshery/meshery
   - type: Playground
     url: https://play.meshery.io/
-  - type: SignUp
+  - type: Signup
     url: https://meshery.io/playground
   - type: Blog
     url: https://meshery.io/blog
