@@ -32,6 +32,19 @@ modified: '2026-04-28'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: IssueTracker
+    url: https://github.com/meshery/meshery/issues
+  - type: Releases
+    url: https://github.com/meshery/meshery/releases
+  - type: SecurityPolicy
+    url: https://github.com/meshery/meshery/blob/master/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/meshery/meshery/blob/master/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/meshery/meshery/blob/master/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/meshery/meshery/blob/master/LICENSE
   - type: DomainSecurity
     url: security/meshery-domain-security.yml
   - type: LinkedIn
