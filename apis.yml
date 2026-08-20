@@ -21,6 +21,13 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meshery.png
 url: https://raw.githubusercontent.com/api-evangelist/meshery/refs/heads/main/apis.yml
 tags:
+  - Cloud-Native
+  - CNCF
+  - Kubernetes
+  - Service Mesh
+  - Platform Engineering
+  - Multi-Cluster
+tags_raw:
   - Cloud Native
   - CNCF
   - Kubernetes
