@@ -7,6 +7,19 @@ description: >-
   native applications and infrastructure. Meshery exposes REST and GraphQL
   APIs for automating multi-cluster operations, design management, performance
   profiling, and integration with hundreds of CNCF and ecosystem projects.
+deliveryModel:
+  model: open-core
+  license: Apache-2.0
+  open_source: true
+  commercial: true
+  callable_host: false
+  label: Open core · an OSS project plus a commercial hosted product
+  confidence: high
+  source:
+  - license
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
