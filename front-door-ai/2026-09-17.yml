@@ -1,0 +1,27 @@
+# Front Door AI Index — meshery — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: meshery
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: meshery.io
+  final_host: meshery.io
+  ownership: own
+  owner: meshery
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 3
+  host_score: 3
+  density: 0.92
+  words: 3267
+  tiers:
+    agentic: 0
+    core: 3
+    model: 0
+  ambiguous: 2
+  top_terms:
+    LLMs: 2
+    agent: 2
+    large language model: 1
