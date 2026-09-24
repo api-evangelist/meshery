@@ -1,1 +1,0 @@
-# Meshery GraphQL API
