@@ -36,6 +36,79 @@ edges:
     detected: '2026-10-19'
   detected_by: sweep-cloud-native.py
   first_seen: '2026-10-15'
+- partner_name: OpenSSF Best Practices Badge
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.bestpractices.dev/en/projects/3564
+  category: OpenSSF Best Practices badge (open-source project security conformance)
+  contract_reference:
+    register: OpenSSF Best Practices badge projects (bestpractices.dev/en/projects.json, paged)
+    standard: OpenSSF Best Practices Badge criteria (formerly CII Best Practices; bestpractices.dev)
+    spec_file: null
+    role: badge-holder
+    registered_name: Meshery
+    matched_by: domain
+    matched_on: meshery.io
+    certified_products:
+    - product: open-source project
+      product_type: open-source project
+      standard: OpenSSF Best Practices Badge criteria (formerly CII Best Practices; bestpractices.dev)
+      lapsed: false
+      partner_tier: passing
+      projects:
+      - name: Meshery
+        id: 3564
+        url: https://www.bestpractices.dev/en/projects/3564
+        badge_level: passing
+      baseline_levels:
+      - baseline-1
+    signal_note: 'certified_products = ONE entry (product type: open-source project) with the highest CURRENT badge
+      level in partner_tier; a provider whose projects only lost the badge is lapsed: true; project names are context,
+      never counted; in_progress entries are not conformance'
+    detected_by: sweep-openssf-best-practices-badges.py
+    detected: '2026-10-22'
+  detected_by: sweep-openssf-best-practices-badges.py
+  first_seen: '2026-10-22'
+- partner_name: Artifact Hub (artifact-hub)
+  partner: artifact-hub
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: artifact-hub
+  evidence: https://artifacthub.io/packages/search?repo=meshery
+  mirror_of: artifact-hub/integrations/artifact-hub-integration-edges.yml
+  apps:
+  - meshery
+  - meshery-operator
+  - helm-kanvas-snapshot
+  - All relationships
+  - 3-Tier Architecture
+  - Acme Operator
+  - Azure Monitor Containers
+  - Consul on kubernetes
+  - Meshery Certification Tracks
+  - Run DaemonSet on GKE Autopilot
+  - 3-Tier Resilient Microservices Architecture
+  - Accelerated mTLS handshake for Envoy data planes
+  - Adobe Flex-in-a-Box Architecture
+  - airflow-25.0.2.tgz
+  - Amazon Web Services IoT Architecture Diagram
+  - Analytics Dashboard Backend
+  - apache-11.3.5.tgz
+  - Apache Airflow
+  listing_count: 3
+  detected: '2026-10-22'
+  detected_by: mirror-platform-listings.py
+  category: Artifact Hub listing (Helm chart)
+  badges:
+  - 'Verified publisher (Artifact Hub verified publisher: repository ownership proven)'
 generated: '2026-10-15'
 method: searched
 source:
@@ -45,3 +118,5 @@ checked:
 - https://focus.finops.org/data-generators/
 - https://github.com/cncf/k8s-conformance
 - https://github.com/cncf/landscape
+- https://www.bestpractices.dev/en/projects.json
+- artifact-hub/integrations/artifact-hub-integration-edges.yml
